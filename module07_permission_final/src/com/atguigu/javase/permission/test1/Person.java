@@ -8,6 +8,10 @@ public class Person {
         System.out.println("eat");
     }
     
+    public final void speak(){
+        System.out.println("speak");
+    }
+    
     protected void sleep(){
         System.out.println("sleep");
     }

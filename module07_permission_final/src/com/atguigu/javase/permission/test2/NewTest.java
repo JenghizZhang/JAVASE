@@ -10,6 +10,7 @@ public class NewTest {
     
         Student student = new Student();
         // student.
+        student.speak();
         HighSchoolStudent h = new HighSchoolStudent();
         h.eas();
     }
