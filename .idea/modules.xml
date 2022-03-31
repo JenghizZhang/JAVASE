@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/module05_implements/module05_implements.iml" filepath="$PROJECT_DIR$/module05_implements/module05_implements.iml" />
       <module fileurl="file://$PROJECT_DIR$/module06_static/module06_static.iml" filepath="$PROJECT_DIR$/module06_static/module06_static.iml" />
       <module fileurl="file://$PROJECT_DIR$/module07_permission_final/module07_permission_final.iml" filepath="$PROJECT_DIR$/module07_permission_final/module07_permission_final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module8_initialization/module8_initialization.iml" filepath="$PROJECT_DIR$/module8_initialization/module8_initialization.iml" />
     </modules>
   </component>
 </project>
