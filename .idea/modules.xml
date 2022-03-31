@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/java.iml" filepath="$PROJECT_DIR$/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/module01_array/module01_array.iml" filepath="$PROJECT_DIR$/module01_array/module01_array.iml" />
       <module fileurl="file://$PROJECT_DIR$/module04_polymorphic/module04_polymorphic.iml" filepath="$PROJECT_DIR$/module04_polymorphic/module04_polymorphic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module05_implements/module05_implements.iml" filepath="$PROJECT_DIR$/module05_implements/module05_implements.iml" />
     </modules>
   </component>
 </project>
