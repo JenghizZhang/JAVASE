@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Module03_class/Module03_class.iml" filepath="$PROJECT_DIR$/Module03_class/Module03_class.iml" />
       <module fileurl="file://$PROJECT_DIR$/java.iml" filepath="$PROJECT_DIR$/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/module01_array/module01_array.iml" filepath="$PROJECT_DIR$/module01_array/module01_array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module03_class/module03_class.iml" filepath="$PROJECT_DIR$/module03_class/module03_class.iml" />
       <module fileurl="file://$PROJECT_DIR$/module04_polymorphic/module04_polymorphic.iml" filepath="$PROJECT_DIR$/module04_polymorphic/module04_polymorphic.iml" />
       <module fileurl="file://$PROJECT_DIR$/module05_implements/module05_implements.iml" filepath="$PROJECT_DIR$/module05_implements/module05_implements.iml" />
       <module fileurl="file://$PROJECT_DIR$/module06_static/module06_static.iml" filepath="$PROJECT_DIR$/module06_static/module06_static.iml" />
       <module fileurl="file://$PROJECT_DIR$/module07_permission_final/module07_permission_final.iml" filepath="$PROJECT_DIR$/module07_permission_final/module07_permission_final.iml" />
-      <module fileurl="file://$PROJECT_DIR$/module8_initialization/module8_initialization.iml" filepath="$PROJECT_DIR$/module8_initialization/module8_initialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module08_initialization/module08_initialization.iml" filepath="$PROJECT_DIR$/module08_initialization/module08_initialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module09_Object/module09_Object.iml" filepath="$PROJECT_DIR$/module09_Object/module09_Object.iml" />
     </modules>
   </component>
 </project>
