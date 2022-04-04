@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/module07_permission_final/module07_permission_final.iml" filepath="$PROJECT_DIR$/module07_permission_final/module07_permission_final.iml" />
       <module fileurl="file://$PROJECT_DIR$/module08_initialization/module08_initialization.iml" filepath="$PROJECT_DIR$/module08_initialization/module08_initialization.iml" />
       <module fileurl="file://$PROJECT_DIR$/module09_Object/module09_Object.iml" filepath="$PROJECT_DIR$/module09_Object/module09_Object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module10_commonClass/module10_commonClass.iml" filepath="$PROJECT_DIR$/module10_commonClass/module10_commonClass.iml" />
     </modules>
   </component>
 </project>
