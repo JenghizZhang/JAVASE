@@ -56,7 +56,6 @@ public class Test {
         l.add("4");
         l.add("5");
         l.add("6");
-    
         ListIterator<String> li = l.listIterator();
         while (li.hasNext()){
             System.out.println(li.next());
