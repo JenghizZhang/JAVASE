@@ -2,7 +2,7 @@ package com.atguigu.javase.collection.set.hashSet;
 
 import java.util.Objects;
 
-public class Student {
+public class Student implements Comparable{
     private int age;
     private String name;
     
@@ -51,5 +51,10 @@ public class Student {
     
     public Student() {
     
+    }
+    
+    @Override
+    public int compareTo(Object o) {
+        return age-((Student) o).age + name.compareTo(((Student) o).name);
     }
 }
