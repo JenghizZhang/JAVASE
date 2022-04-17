@@ -11,7 +11,7 @@ public class Test2 {
         list.add(2);
         list.add(3);
         list.add(4);
-        
+        System.out.println(list);
         Integer[] arr = list.toArray(new Integer[list.size()]);
         
         List<Integer> list2 = new ArrayList<>();

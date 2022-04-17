@@ -14,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/module10_commonClass/module10_commonClass.iml" filepath="$PROJECT_DIR$/module10_commonClass/module10_commonClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/module11_exception/module11_exception.iml" filepath="$PROJECT_DIR$/module11_exception/module11_exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/module12_collection/module12_collection.iml" filepath="$PROJECT_DIR$/module12_collection/module12_collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module13_map/module13_map.iml" filepath="$PROJECT_DIR$/module13_map/module13_map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module14_customer/module14_customer.iml" filepath="$PROJECT_DIR$/module14_customer/module14_customer.iml" />
     </modules>
   </component>
 </project>
