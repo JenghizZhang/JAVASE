@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/module12_collection/module12_collection.iml" filepath="$PROJECT_DIR$/module12_collection/module12_collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/module13_map/module13_map.iml" filepath="$PROJECT_DIR$/module13_map/module13_map.iml" />
       <module fileurl="file://$PROJECT_DIR$/module14_customer/module14_customer.iml" filepath="$PROJECT_DIR$/module14_customer/module14_customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module15_thread/module15_thread.iml" filepath="$PROJECT_DIR$/module15_thread/module15_thread.iml" />
     </modules>
   </component>
 </project>
