@@ -1,5 +1,7 @@
 package com.atguigu.threadSecurity;
 
+import java.util.Date;
+
 class BuyTicket implements Runnable {
     private int ticketNum = 100;
     public Object o = new Object();
@@ -35,6 +37,8 @@ class BuyTicket implements Runnable {
     public void run() {
         while (true) {
             sell();
+            Date date = new Date();
+            System.out.println(date);
         }
     }
 }
