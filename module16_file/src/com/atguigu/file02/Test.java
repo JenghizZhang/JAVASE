@@ -5,7 +5,7 @@ import java.io.File;
 public class Test {
     public static void main(String[] args) {
         // fileMethod();
-        
+        fileMethod2();
     }
     
     public static void fileMethod(){
@@ -17,11 +17,30 @@ public class Test {
     }
     
     public static void fileMethod2(){
-        File f = new File("/Users/yunsongzhang/Desktop/test/java");
+        File f = new File("/Users/yunsongzhang/Desktop/test/java/module01_array");
+        // File f = new File("/Users/yunsongzhang/Desktop/test/java/module01_array/.DS_Store");
         File[] files = f.listFiles();
-        for(File file:files){
-            System.out.println(file);
+        deepFile(f);
+        // for(File file:files){
+        //     System.out.println(file);
+        // }
+    }
+    
+    public static void deepFile(File file){
+        File[] files = file.listFiles();
+    
+        if(file == null||files==null){
+            return;
         }
+        // if(files.length == 0){
+        //     return;
+        // }
+        
+        for(File f:files){
+            System.out.println(f);
+            deepFile(f);
+        }
+        return;
     }
     
 }
