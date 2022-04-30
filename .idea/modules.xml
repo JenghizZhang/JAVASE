@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/module14_customer/module14_customer.iml" filepath="$PROJECT_DIR$/module14_customer/module14_customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/module15_thread/module15_thread.iml" filepath="$PROJECT_DIR$/module15_thread/module15_thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/module16_file/module16_file.iml" filepath="$PROJECT_DIR$/module16_file/module16_file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module17_IO/module17_IO.iml" filepath="$PROJECT_DIR$/module17_IO/module17_IO.iml" />
     </modules>
   </component>
 </project>
