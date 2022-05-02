@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/module17_IO/module17_IO.iml" filepath="$PROJECT_DIR$/module17_IO/module17_IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/module18_web/module18_web.iml" filepath="$PROJECT_DIR$/module18_web/module18_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/module19_enum/module19_enum.iml" filepath="$PROJECT_DIR$/module19_enum/module19_enum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module20_reflect/module20_reflect.iml" filepath="$PROJECT_DIR$/module20_reflect/module20_reflect.iml" />
     </modules>
   </component>
 </project>
