@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="junit (3)">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/module22_lambda/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/module22_lambda/lib" recursive="false" />
+  </library>
+</component>

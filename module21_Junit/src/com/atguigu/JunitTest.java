@@ -40,8 +40,6 @@ public class JunitTest {
         Map<String, String> map = new HashMap<String, String>();
         map.put("张三","深圳");
         Set<Map.Entry<String, String>> entries = map.entrySet();
-        for (Map.Entry<String, String> entry : entries) {
-        }
         System.out.println("销毁工作");
     }
 }
