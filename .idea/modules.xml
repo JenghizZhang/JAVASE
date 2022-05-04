@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/module21_Junit/module21_Junit.iml" filepath="$PROJECT_DIR$/module21_Junit/module21_Junit.iml" />
       <module fileurl="file://$PROJECT_DIR$/module22_lambda/module22_lambda.iml" filepath="$PROJECT_DIR$/module22_lambda/module22_lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/module23_stream/module23_stream.iml" filepath="$PROJECT_DIR$/module23_stream/module23_stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module24_optional/module24_optional.iml" filepath="$PROJECT_DIR$/module24_optional/module24_optional.iml" />
     </modules>
   </component>
 </project>
