@@ -4,10 +4,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import java.sql.*;
 
 public class TestPreparedStatement {
     
@@ -69,5 +66,20 @@ public class TestPreparedStatement {
         }
         resultSet.close();
         preparedStatement.close();
+    }
+    
+    @Test
+    public void testObtainPrimaryKeyAfterInsert() throws Exception {
+        String sql = "insert into user(id,username,password,nickname) values(null,?,?,?)";
+        PreparedStatement pst = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+        pst.setObject(1, "aobama");
+        pst.setObject(2, "12345678");
+        pst.setObject(3, "圣枪游侠");
+    
+        System.out.println(pst.executeUpdate());
+        ResultSet generatedKeys = pst.getGeneratedKeys();
+        while (generatedKeys.next()) {
+            System.out.println(generatedKeys.getObject(1));
+        }
     }
 }
