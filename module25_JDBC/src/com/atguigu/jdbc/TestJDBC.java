@@ -8,6 +8,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
 
 public class TestJDBC {
     private Connection connection;
@@ -39,16 +42,18 @@ public class TestJDBC {
         Statement statement = connection.createStatement();
         String sql = "select * from user";
         ResultSet resultSet = statement.executeQuery(sql);
-        
+        HashSet<User> users = new HashSet<>();
         while (resultSet.next()) {
             int id = (int) resultSet.getObject("id");
             String un = (String) resultSet.getObject("username");
             String pwd = (String) resultSet.getObject("password");
             String nn = (String) resultSet.getObject("nickname");
-            System.out.println(id + un + pwd + nn);
-            System.out.println("!!!!!!!!");
+            users.add(new User(id, un, pwd, nn));
         }
-        
+        Iterator<User> iterator = users.iterator();
+        while (iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
         resultSet.close();
         statement.close();
         connection.close();
@@ -81,7 +86,12 @@ public class TestJDBC {
         String sql = "select * from user where id = 1";
         ResultSet resultSet = statement.executeQuery(sql);
         while (resultSet.next()){
-            System.out.println(resultSet.getObject(2));
+            int id = (int) resultSet.getObject("id");
+            String un = (String) resultSet.getObject("username");
+            String pwd = (String) resultSet.getObject("password");
+            String nn = (String) resultSet.getObject("nickname");
+            User user = new User(id, un, pwd, nn);
+            System.out.println(user);
         }
         resultSet.close();
     }
