@@ -27,6 +27,8 @@
       <module fileurl="file://$PROJECT_DIR$/module23_stream/module23_stream.iml" filepath="$PROJECT_DIR$/module23_stream/module23_stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/module24_optional/module24_optional.iml" filepath="$PROJECT_DIR$/module24_optional/module24_optional.iml" />
       <module fileurl="file://$PROJECT_DIR$/module25_JDBC/module25_JDBC.iml" filepath="$PROJECT_DIR$/module25_JDBC/module25_JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web01.iml" filepath="$PROJECT_DIR$/web01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web03.iml" filepath="$PROJECT_DIR$/web03.iml" />
     </modules>
   </component>
 </project>
